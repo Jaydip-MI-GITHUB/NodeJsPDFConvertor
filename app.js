@@ -58,23 +58,23 @@ async function getTotalPagesInPdf(htmlContent, browser) {
   return totalPages;
 }
 (async () => {
-  // const templates = [
-  //   "CCorp",
-  //   "Partnership",
-  //   "Scorp",
-  //   "SoleProprietorship",
-  //   "ProfitOrLoss",
-  //   "14DayHomeRental",
-  //   "401KPlan",
-  //   "CharitableContributions",
-  //   "DefinedBenefitPlans",
-  //   "EmployingYourChildren",
-  //   "ExpenseAcceleration",
-  //   "HealthSavingsAccounts",
-  //   "IncomeDeferment",
-  //   "SepIra",
-  // ];
-  const templates = ["SepIra"];
+  const templates = [
+    "CCorp",
+    "Partnership",
+    "Scorp",
+    "SoleProprietorship",
+    "ProfitOrLoss",
+    "14DayHomeRental",
+    "401KPlan",
+    "CharitableContributions",
+    "DefinedBenefitPlans",
+    "EmployingYourChildren",
+    "ExpenseAcceleration",
+    "HealthSavingsAccounts",
+    "IncomeDeferment",
+    "SepIra",
+  ];
+  // const templates = ["HealthSavingsAccounts"];
 
   const year = 2021;
   const companyName = "Mind Inventory";
